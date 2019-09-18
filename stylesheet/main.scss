@@ -2,23 +2,15 @@
 body{
 color:#FFF;
 font-size: 16px;
-font-family: 'Proxima Nova Rg';
-  min-width:1366px;
-background-color: #04396e;
 }
 
 .wrapper{
-  max-width: 1366px;
-  min-width:1366px;
-  margin:0 auto;
-  width:100%;
-  box-sizing: border-box;
-
+background-color: #04396e;
 padding:100px 129px;
 height: 1111px;
-
-
-
+min-width:1680px;
+width: 100vw;
+box-sizing: border-box;
 }
 
 
@@ -62,18 +54,16 @@ height: 1111px;
 }
 
 .left__bar{
-  margin-top:45px;
+  margin-top:70px;
 }
 
 .right__bar{
   text-align: right;
-
+  margin-top:15px;
 }
 
 .center__img{
   margin-top:-40px;
-  width:650px;
-  height:462px;
 }
 
 .center__notes{
@@ -92,7 +82,7 @@ position: relative;
   position:absolute;
   top:20px;
   left:65px;
-  width:410px;
+  width:530px;
   height:2px;
   background-color: #18518b;
 }
@@ -100,7 +90,7 @@ position: relative;
   content:"";
   position:absolute;
   top:20px;
-  left:475px;
+  left:595px;
   width:2px;
   height:12px;
   background-color: #18518b;
@@ -113,7 +103,7 @@ position: relative;
   position:absolute;
   top:20px;
   left:65px;
-  width:250px;
+  width:300px;
   height:2px;
   background-color: #18518b;
 }
@@ -121,10 +111,10 @@ position: relative;
 .transactions::after{
   content:"";
   position:absolute;
-  top:-43px;
-  left:314px;
+  top:-10px;
+  left:365px;
   width:2px;
-  height:65px;
+  height:32px;
   background-color: #18518b;
 }
 
@@ -133,9 +123,9 @@ position: relative;
 .transactions span::after{
   content:"";
   position:absolute;
-  top:-68px;
-  left:314px;
-  width:13px;
+  top:-36px;
+  left:365px;
+  width:15px;
   height:2px;
   background-color: #18518b;
 }
@@ -145,7 +135,7 @@ position: relative;
   position:absolute;
   top:20px;
   left:65px;
-  width:135px;
+  width:180px;
   height:2px;
   background-color: #18518b;
 }
@@ -154,18 +144,18 @@ position: relative;
   content:"";
   position:absolute;
   bottom:198px;
-  left:200px;
+  left:245px;
   width:2px;
-  height:200px;
+  height:240px;
   background-color: #18518b;
 }
 
 .trans_details span::before{
   content:"";
   position:absolute;
-  bottom:222px;
-  left:200px;
-  width:305px;
+  bottom:260px;
+  left:245px;
+  width:440px;
   height:2px;
   background-color: #18518b;
 }
@@ -173,19 +163,19 @@ position: relative;
 .trans_details span::after{
   content:"";
   position:absolute;
-  bottom:222px;
-  left:505px;
+  bottom:260px;
+  left:684px;
   width:2px;
-  height:26px;
+  height:30px;
   background-color: #18518b;
 }
 
 .trans_details span span::before{
   content:"";
   position:absolute;
-  bottom:247px;
-  left:505px;
-  width:8px;
+  bottom:290px;
+  left:684px;
+  width:12px;
   height:2px;
   background-color: #18518b;
 }
@@ -195,7 +185,7 @@ position: relative;
   position:absolute;
   top:19px;
   left:65px;
-  width:135px;
+  width:179px;
   height:2px;
   background-color: #18518b;
 }
@@ -203,10 +193,10 @@ position: relative;
 .payment__proof::after{
   content:"";
   position:absolute;
-  bottom:199px;
-  left:198px;
+  bottom:200px;
+  left:242px;
   width:2px;
-  height:296px;
+  height:355px;
   background-color: #18518b;
 }
 
@@ -215,7 +205,7 @@ position: relative;
   position:absolute;
   top:20px;
   right:65px;
-  width:190px;
+  width:220px;
   height:2px;
   background-color: #18518b;
 }
@@ -224,28 +214,28 @@ position: relative;
   content:"";
   position:absolute;
   bottom:200px;
-  right:253px;
+  right:283px;
   width:2px;
-  height:254px;
+  height:245px;
   background-color: #18518b;
 }
 
 .receive span::before{
   content:"";
   position:absolute;
-  bottom:278px;
-  right:213px;
-  width:70px;
+  bottom:267px;
+  right:244px;
+  width:96px;
   height:2px;
   background-color: #18518b;
 }
 .receive span::after{
   content:"";
   position:absolute;
-  bottom:278px;
-  right:282px;
+  bottom:267px;
+  right:340px;
   width:2px;
-  height:8px;
+  height:10px;
   background-color: #18518b;
 }
 
@@ -258,7 +248,7 @@ position: relative;
   position:absolute;
   top:20px;
   right:65px;
-  width:345px;
+  width:440px;
   height:2px;
   background-color: #18518b;
 }
@@ -267,8 +257,8 @@ position: relative;
   content:"";
   position:absolute;
   top:20px;
-  right:410px;
+  right:505px;
   width:2px;
-  height:11px;
+  height:13px;
   background-color: #18518b;
 }
