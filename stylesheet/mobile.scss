@@ -1,28 +1,25 @@
-body{
-
-}
-.note{
+.mob-note{
   width:360px;
 }
 
-.center__img{
+.center__img--mob{
   width: 323px;
   height: 583px;
   margin:0;
 }
 
-.left__bar{
+.left__bar--mob{
   margin-top:87px;
 }
-.right__bar{
+.right__bar--mob{
   margin-top: 47px;
 }
 
-.send,.transactions,.privacy,.receive{
+.privacy__mob,.send__mob,.transactions__mob,.receive__mob{
   position: relative;
 }
 
-.send::after{
+.send__mob::after{
   content:"";
   position:absolute;
   top:20px;
@@ -32,7 +29,7 @@ body{
   background-color: #18518b;
 }
 
-.transactions::after{
+.transactions__mob::after{
     content:"";
     position:absolute;
     top:20px;
@@ -42,7 +39,7 @@ body{
     background-color: #18518b;
 }
 
-.privacy::before{
+.privacy__mob::before{
   content:"";
   position:absolute;
   top:20px;
@@ -53,7 +50,7 @@ body{
 }
 
 
-.receive::before{
+.receive__mob::before{
   content:"";
   position:absolute;
   top:20px;
@@ -63,7 +60,7 @@ body{
   background-color: #18518b;
 }
 
-.receive::after{
+.receive__mob::after{
   content:"";
   position:absolute;
   bottom:200px;
@@ -73,11 +70,11 @@ body{
   background-color: #18518b;
 }
 
-.receive span::before{
+.receive__mob span::before{
   content:"";
   position:absolute;
-  bottom:380px;
-  right:373px;
+  bottom:203px;
+  right:334px;
   width:44px;
   height:2px;
   background-color: #18518b;
