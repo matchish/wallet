@@ -1,7 +1,7 @@
 
 
 
-.body{
+.wallet-instructions-body-android{
   color:#FFF;
   font-size: 16px;
   font-family: 'Proxima Nova Rg';
@@ -10,7 +10,7 @@
 
 }
 
-.wrapper__device{
+.wallet-instructions-wrapper-android{
   width:100%;
   max-width: 425px;
   min-width:320px;
@@ -22,18 +22,18 @@
 }
 
 
-.header__title{
+.wallet-instructions-header__title-android{
   color: #39fdf2;
   text-align: center;
   margin-bottom: 70px;
 }
-.note__title{
+.wallet-instructions-note__title-android{
   font-size: 1rem;
   font-weight: 600;
 
 }
 
-.note__description{
+.wallet-instructions-note__description-android{
   opacity: 0.7;
   width:60%;
   line-height: normal;
@@ -41,35 +41,37 @@
 }
 
 
-.content__device{
+.wallet-instructions-content-android{
   display:flex;
   justify-content: center;
 }
 
-.content__device--left{
+.wallet-instructions-content-android__left{
 margin-top:45px;
 
 }
 
-.content__device--right{
+.wallet-instructions-content-android__right{
   margin-top:6px;
 }
 
-.center__img--device{
+.wallet-instructions-center__img-android{
   margin-top:-40px;
   width:224px;
   height:570px;
 }
 
-.send__device,.transactions__device,.privacy__device,.receive__device{
+.wallet-instructions-send-android,.wallet-instructions-transactions-android,.wallet-instructions-privacy-android,.wallet-instructions-receive-android{
   position:relative;
 }
 
-.send__device{
+
+
+.wallet-instructions-send-android{
   margin-bottom:145px;
 }
 
-.send__device::after{
+.wallet-instructions-send-android::after{
   content:"";
   position:absolute;
   top:20px;
@@ -79,7 +81,7 @@ margin-top:45px;
   background-color: #18518b;
 }
 
-.transactions__device::after{
+.wallet-instructions-transactions-android::after{
   content:"";
   position:absolute;
   top:20px;
@@ -89,7 +91,7 @@ margin-top:45px;
   background-color: #18518b;
 }
 
-.privacy__device::after{
+.wallet-instructions-privacy-android::after{
   content:"";
   position:absolute;
   top:20px;
@@ -99,7 +101,7 @@ margin-top:45px;
   background-color: #18518b;
 }
 
-.receive__device::after{
+.wallet-instructions-receive-android::after{
   content:"";
   position:absolute;
   top:14px;
@@ -109,7 +111,7 @@ margin-top:45px;
   background-color: #18518b;
 }
 
-.modal{
+.wallet-instructions-modal-android{
   padding-top:100px;
   padding-left:26px;
   z-index:10;
@@ -124,7 +126,7 @@ margin-top:45px;
 
 
 }
-.close{
+.wallet-instructions-close-android{
   width:30px;
   height:30px;
   position: absolute;

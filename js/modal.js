@@ -1,8 +1,8 @@
-document.querySelector(".send__device").addEventListener("click", () => {
-  document.querySelector(".send__modal").style.display = "block";
+document.querySelector(".wallet-instructions-send-android").addEventListener("click", () => {
+  document.querySelector(".wallet-instructions-send__modal-android").style.display = "block";
 });
 
 
-document.querySelector(".close").addEventListener("click",()=>{
-  document.querySelector(".send__modal").style.display = "none";
+document.querySelector(".wallet-instructions-close-android").addEventListener("click",()=>{
+  document.querySelector(".wallet-instructions-send__modal-android").style.display = "none";
 })

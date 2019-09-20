@@ -1,25 +1,57 @@
-.mob-note{
-  width:360px;
+.wallet-instructions-body-android{
+  color:#FFF;
+  font-size: 16px;
+  font-family: 'Proxima Nova Rg';
+  min-width:1366px;
+  background-color: #04396e;
 }
 
-.center__img--mob{
+.wallet-instructions-wrapper-android{
+  max-width: 1366px;
+  min-width:1366px;
+  margin:0 auto;
+  width:100%;
+  box-sizing: border-box;
+  padding:100px 129px;
+  height: 1111px;
+
+}
+
+.wallet-instructions-header__title-android{
+  color: #39fdf2;
+  text-align: center;
+  padding-bottom:100px;
+}
+
+
+.wallet-instructions-note-android{
+  width:360px;
+  height:220px;
+}
+
+.wallet-instructions-center__img-android{
   width: 323px;
   height: 583px;
   margin:0;
 }
+.wallet-instructions-content-android{
+  display:flex;
+  justify-content: space-between;
 
-.left__bar--mob{
+}
+.wallet-instructions-content-android__left{
   margin-top:87px;
 }
-.right__bar--mob{
+.wallet-instructions-content-android__right{
   margin-top: 47px;
+  text-align: right;
 }
 
-.privacy__mob,.send__mob,.transactions__mob,.receive__mob{
+.wallet-instructions-privacy-android,.wallet-instructions-send-android,.wallet-instructions-transactions-android,.wallet-instructions-receive-android{
   position: relative;
 }
 
-.send__mob::after{
+.wallet-instructions-send-android::after{
   content:"";
   position:absolute;
   top:20px;
@@ -29,7 +61,7 @@
   background-color: #18518b;
 }
 
-.transactions__mob::after{
+.wallet-instructions-transactions-android::after{
     content:"";
     position:absolute;
     top:20px;
@@ -39,7 +71,7 @@
     background-color: #18518b;
 }
 
-.privacy__mob::before{
+.wallet-instructions-privacy-android::before{
   content:"";
   position:absolute;
   top:20px;
@@ -50,7 +82,7 @@
 }
 
 
-.receive__mob::before{
+.wallet-instructions-receive-android::before{
   content:"";
   position:absolute;
   top:20px;
@@ -60,7 +92,7 @@
   background-color: #18518b;
 }
 
-.receive__mob::after{
+.wallet-instructions-receive-android::after{
   content:"";
   position:absolute;
   bottom:200px;
@@ -70,7 +102,7 @@
   background-color: #18518b;
 }
 
-.receive__mob span::before{
+.wallet-instructions-receive-android span::before{
   content:"";
   position:absolute;
   bottom:203px;
@@ -78,4 +110,128 @@
   width:44px;
   height:2px;
   background-color: #18518b;
+}
+
+
+@media screen and(max-width:760px) {
+
+  .wallet-instructions-content-android{
+    display:flex;
+    justify-content: center;
+  }
+.wallet-instructions-note-android{
+  width:auto;
+  height:auto;
+}
+
+
+  .wallet-instructions-body-android{
+    color:#FFF;
+    font-size: 16px;
+    font-family: 'Proxima Nova Rg';
+    min-width:320px;
+    background-color: #04396e;
+
+  }
+
+  .wallet-instructions-wrapper-android{
+    width:100%;
+    max-width: 425px;
+    min-width:320px;
+    margin:0 auto;
+    box-sizing: border-box;
+    padding:80px 26px;
+    height: 910px;
+
+  }
+
+
+  .wallet-instructions-header__title-android{
+    color: #39fdf2;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .wallet-instructions-note__title-android{
+    font-size: 1rem;
+    font-weight: 600;
+
+  }
+
+  .wallet-instructions-note__description-android{
+    opacity: 0.7;
+    width:60%;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  .wallet-instructions-content-android__left{
+  margin-top:45px;
+  }
+
+  .wallet-instructions-content-android__right{
+    margin-top:6px;
+
+  }
+
+  .wallet-instructions-center__img-android{
+    margin-top:-40px;
+    width:224px;
+    height:570px;
+  }
+
+
+  .wallet-instructions-send-android{
+    margin-bottom:145px;
+  }
+
+  .wallet-instructions-send-android::after{
+    content:"";
+    position:absolute;
+    top:20px;
+    bottom:0;
+    right:0;
+    left:40px;
+    width:33px;
+    height:2px;
+    background-color: #18518b;
+  }
+
+  .wallet-instructions-transactions-android::after{
+    content:"";
+    position:absolute;
+    top:20px;
+    left:40px;
+    bottom:0;
+    right:0;
+    width:33px;
+    height:2px;
+    background-color: #18518b;
+  }
+
+  .wallet-instructions-privacy-android::after{
+    content:"";
+    position:absolute;
+    top:20px;
+    right:40px;
+
+    width:33px;
+    height:2px;
+    background-color: #18518b;
+  }
+
+  .wallet-instructions-receive-android::after{
+    content:"";
+    position:absolute;
+    top:14px;
+
+    right:40px;
+    width:33px;
+    height:2px;
+    background-color: #18518b;
+  }
+  .wallet-instructions-receive-android::before,.wallet-instructions-privacy-android::before,.wallet-instructions-receive-android span::before,.wallet-instructions-note__title-android,.wallet-instructions-note__description-android{
+    display:none;
+  }
+
+
+
 }
