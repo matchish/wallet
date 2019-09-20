@@ -4,6 +4,7 @@
   font-family: 'Proxima Nova Rg';
   min-width:1366px;
   background-color: #04396e;
+  box-sizing: border-box;
 }
 
 .wallet-instructions-wrapper-android{
@@ -113,13 +114,11 @@
 }
 
 .wallet-instructions-modal-android{
-
   display:none;
-
 }
 
 
-@media screen and(max-width:760px) {
+@media screen and(max-width:1300px) {
 
 .wallet-instructions-content-android{
     display:flex;
