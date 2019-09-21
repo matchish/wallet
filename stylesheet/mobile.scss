@@ -5,6 +5,8 @@
   min-width:1366px;
   background-color: #04396e;
   box-sizing: border-box;
+
+
 }
 
 .wallet-instructions-wrapper-android{
@@ -15,6 +17,7 @@
   box-sizing: border-box;
   padding:100px 129px;
   height: 1111px;
+
 
 }
 
@@ -42,14 +45,17 @@
 }
 .wallet-instructions-content-android__left{
   margin-top:87px;
+
 }
 .wallet-instructions-content-android__right{
   margin-top: 47px;
   text-align: right;
+
 }
 
 .wallet-instructions-privacy-android,.wallet-instructions-send-android,.wallet-instructions-transactions-android,.wallet-instructions-receive-android,span{
   position: relative;
+
 }
 
 .wallet-instructions-send-android::after{
@@ -114,7 +120,7 @@
 }
 
 .wallet-instructions-modal-android{
-  display:none;
+display:none;
 }
 
 
@@ -198,6 +204,7 @@
     width:33px;
     height:2px;
     background-color: #18518b;
+
   }
 
   .wallet-instructions-transactions-android::after{
@@ -239,17 +246,18 @@
   .wallet-instructions-modal-android{
     padding-top:100px;
     padding-left:26px;
-    z-index:10;
+    z-index:60;
     position: absolute;
     box-sizing: border-box;
     top:0;
     left:0;
     width:100vw;
     height:910px;
-    background-color: rgba(0,42,85,.95);
     display:none;
-
+   background-color: rgba(0,42,85,0.6);
+   filter:none!important
   }
+
   .wallet-instructions-close-android{
     width:30px;
     height:30px;
@@ -257,12 +265,12 @@
     top:20px;
     right:50px;
     background: url("../assets/icons/close.png") no-repeat center/cover;
-
   }
 
   .wallet-instructions-modal-note__title-android{
     font-size: 1rem;
     font-weight: 600;
+    z-index:200;
 
   }
 
@@ -272,6 +280,7 @@
     width:60%;
     line-height: normal;
     letter-spacing: normal;
+    z-index:200;
   }
 
 
